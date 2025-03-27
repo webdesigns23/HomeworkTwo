@@ -1,0 +1,65 @@
+nav{
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+header{
+    background-color: rgb(231, 216, 216);
+}
+
+header img{
+    width:10%;
+    position:relative;
+    top: 20px;
+}
+
+h1{
+    background-color: rgb(230, 149, 160);
+    font-family: Elephant, Georgia;
+    font-size: 35px;
+    color: rgb(70, 71, 66);
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row; 
+    justify-content:space-evenly;
+    font-size: 30px;
+    font-family: Impact, Calibri, Tahoma;
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(10, 90, 103);
+}
+
+main{
+    background-color: rgb(227, 227, 236);
+    font-size: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    row-gap: 10px;
+}
+
+.grid img{
+    width: 75%;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;  
+    justify-content: center;
+}
+
+footer{
+    font-size:18px;
+    background-color: rgb(194, 237, 224);  
+}
